@@ -7,6 +7,7 @@ venv/
 # Virtual environment
 venv/
 .env/
+myquiz-app/node_modules/
 
 # Editor files
 .vscode/
@@ -17,3 +18,38 @@ venv/
 .ipynb_checkpoints/
 #skp env
 echo ".env" >> .gitignoregit rm --cached .env
+
+__pycache__/
+venv/
+.env/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Editor files
+.vscode/
+*.swp
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+#skp env
+echo ".env" >> .gitignoregit rm --cached .env
+# Remove duplicate entries and fix formatting issues above.
+# To resolve the conflict:
+# 1. Keep only one copy of each ignore rule.
+# 2. Remove shell commands like 'echo ".env" >> .gitignoregit rm --cached .env' (they don't belong in .gitignore).
+# 3. The cleaned .gitignore should look like this:
+
+__pycache__/
+venv/
+.env/
+*.py[cod]
+*.so
+myquiz-app/node_modules/
+.vscode/
+*.swp
+.ipynb_checkpoints/
