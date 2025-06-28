@@ -2,13 +2,9 @@
   "name": "myquiz-heroku",
   "version": "1.1.0",
   "scripts": {
-<<<<<<< HEAD
-    "build": "echo 'root build skipped for heroku app herokuddddd types'",
-=======
     "build": "echo 'root build skipped for heroku app herokuddddd types7777'",
->>>>>>> be1322f (test)
    "heroku-postbuild": "echo 'Contents:' && ls -la && cd myquiz-app && echo 'Frontend contents:' && ls -la && npm install && npm run build "
 
   }
 }
-  gi
+  
